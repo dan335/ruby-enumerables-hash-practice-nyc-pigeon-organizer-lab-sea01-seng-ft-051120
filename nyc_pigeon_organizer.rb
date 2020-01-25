@@ -4,8 +4,8 @@ def nyc_pigeon_organizer(data)
   puts "---"
   pigeons = {}
   
-  data.each do |category, attribute|
-    attribute.each do |name|
+  data.each do |category, attributeArr|
+    attributeArr.each do |attribute, name|
       puts "name: #{name}"
       # create name if doesn't exist
       if !(pigeons.key?(name))
