@@ -6,7 +6,7 @@ def nyc_pigeon_organizer(data)
   
   data.each do |category, attribute|
     attribute.each do |name|
-      
+      puts "name: #{name}"
       # create name if doesn't exist
       if !(pigeons.key?(name))
         pigeons[name] = {}
