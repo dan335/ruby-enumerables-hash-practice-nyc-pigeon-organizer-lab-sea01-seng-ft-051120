@@ -15,7 +15,7 @@ def nyc_pigeon_organizer(data)
         
         # create category if it doesn't exist
         if (!pigeons[name].key?(category))
-          pigeons[name][category] = []
+          pigeons[name][category.to_sym] = []
         end
         
         pigeons[name][category] << attribute
