@@ -18,7 +18,7 @@ def nyc_pigeon_organizer(data)
           pigeons[name][category.to_sym] = []
         end
         
-        pigeons[name][category] << attribute
+        pigeons[name][category] << attribute.to_s
       end
     end
   end
