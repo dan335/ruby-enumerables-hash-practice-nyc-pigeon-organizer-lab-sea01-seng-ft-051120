@@ -1,4 +1,5 @@
 def nyc_pigeon_organizer(data)
+  puts "-----------"
   pigeons = {}
   
   data.each do |category, attribute|
