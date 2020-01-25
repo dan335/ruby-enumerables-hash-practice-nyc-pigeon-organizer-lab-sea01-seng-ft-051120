@@ -1,7 +1,4 @@
 def nyc_pigeon_organizer(data)
-  puts "-----------"
-  puts data
-  puts "---"
   pigeons = {}
   
   data.each do |category, attributeArr|
@@ -22,6 +19,6 @@ def nyc_pigeon_organizer(data)
       end
     end
   end
-  pp pigeons
+
   pigeons
 end
